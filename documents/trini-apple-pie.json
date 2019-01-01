@@ -1,0 +1,238 @@
+{
+    "format-version": "1.0.0",
+    "meta": {
+        "recipe-title": "Apple Pie",
+        "recipe-note": "From the kitchen of Trini Leggiero",
+        "revision": "3.0.0",
+        "authors": [
+            "Trini Leggiero",
+            "Joe Leggiero",
+            "Ben Leggiero"
+        ]
+    },
+    "recipe": {
+        "ingredients": {
+            "stages": [
+                {
+                    "name": "Filling",
+                    "revision": "2.0.0",
+                    "items": [
+                        {
+                            "ingredient": "apple",
+                            "quantity": 4,
+                            "unit": "Cups"
+                        },
+                        {
+                            "ingredient": "sugar",
+                            "quantity": 0.25,
+                            "unit": "Cup",
+                            "substitutions": [
+                                {
+                                    "ingredient": "splenda"
+                                }
+                            ]
+                        },
+                        {
+                            "ingredient": "flour",
+                            "quantity": 2,
+                            "unit": "Tablespoons"
+                        },
+                        {
+                            "ingredient": "cinnamon",
+                            "quantity": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        {
+                            "ingredient": "nutmeg",
+                            "quantity": 1,
+                            "unit": "dash"
+                        },
+                        {
+                            "ingredient": "salt",
+                            "quantity": 1,
+                            "unit": "dash"
+                        },
+                        {
+                            "ingredient": "lemon juice",
+                            "quantity": 1,
+                            "unit": "Tablespoon"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pastry",
+                    "revision": "1.0.0",
+                    "items": [
+                        {
+                            "name": "flour",
+                            "quantity": 1,
+                            "unit": "Cup"
+                        },
+                        {
+                            "name": "salt",
+                            "quantity": 1,
+                            "unit": "teaspoon"
+                        },
+                        {
+                            "name": "shortening",
+                            "quantity": 0.667,
+                            "unit": "Cup"
+                        },
+                        {
+                            "name": "cold water",
+                            "quantity": {
+                                "min": 5,
+                                "max": 7
+                            },
+                            "unit": "Tablespoons"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pastry",
+                    "revision": "2.0.0",
+                    "note": "Bottom ONLY",
+                    "items": [
+                        {
+                            "name": "flour",
+                            "quantity": 1,
+                            "unit": "Cup"
+                        },
+                        {
+                            "name": "salt",
+                            "quantity": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        {
+                            "name": "shortening",
+                            "quantity": 3,
+                            "unit": "Tablespoons"
+                        },
+                        {
+                            "name": "butter",
+                            "quantity": 2,
+                            "unit": "Tablespoons"
+                        },
+                        {
+                            "name": "cold water",
+                            "quantity": 4,
+                            "unit": "Tablespoons"
+                        }
+                    ]
+                },
+                {
+                    "name": "Filling-Topping Coating",
+                    "optionality": "optional",
+                    "revision": "1.0.0",
+                    "items": [
+                        {
+                            "name": "sugar",
+                            "quantity": 0.5,
+                            "unit": "Cup"
+                        },
+                        {
+                            "name": "cinnamon",
+                            "quantity": 0.75,
+                            "unit": "teaspoon"
+                        }
+                    ]
+                },
+                {
+                    "name": "Crumble Crust",
+                    "revision": "1.0.0",
+                    "items": [
+                        {
+                            "name": "sugar",
+                            "quantity": 0.333,
+                            "unit": "Cup"
+                        },
+                        {
+                            "name": "flour",
+                            "quantity": 0.75,
+                            "unit": "Cup"
+                        },
+                        {
+                            "name": "butter",
+                            "quantity": 4,
+                            "unit": "Tablespoons"
+                        }
+                    ]
+                },
+                {
+                    "name": "Crumble Crust",
+                    "revision": "2.0.0",
+                    "items": [
+                        {
+                            "name": "sugar",
+                            "quantity": 0.5,
+                            "unit": "Cup"
+                        },
+                        {
+                            "name": "flour",
+                            "quantity": 1,
+                            "unit": "Cup"
+                        },
+                        {
+                            "name": "butter",
+                            "quantity": 1,
+                            "unit": "stick",
+                            "temperature": "room"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructions": {
+            "cook": {
+                "device": "oven",
+                "temperature": {
+                    "amount": 400,
+                    "unit": "degrees Farenheit"
+                },
+                "timing": [{
+                    "revision": "1.0.0",
+                    "amount": 50
+                },
+                {
+                    "revision": "2.0.0",
+                    "amount": {
+                        "min": 40,
+                        "max": 50
+                    }
+                }]
+            },
+            "steps": [
+                "Pre-heat oven",
+                "Mix and fold pastry dough. Roll out flat and circular. Gently place into pie tin. If using pastry for upper crust, roll slightly thinner and use trimmings as top crust.",
+                "Peel, core, and slice apples. Mix all filling ingredients in very large bowl. Allow to sit.",
+                {
+                    "condition": {
+                        "optionality": "optional",
+                        "requirement": {
+                            "ingredient": {
+                                "name": "Crumble Crust"
+                            }
+                        }
+                    },
+                    "text": "Mash crumb crust ingredients in medium bowl until they hold together."
+                },
+                "Pour filling into lower crust.",
+                {
+                    "condition": {
+                        "optionality": "optional",
+                        "requirement": {
+                            "ingredient": {
+                                "name": "Crumble Crust"
+                            }
+                        }
+                    },
+                    "text": "If desired, sprinkle optional cinnamon-sugar mix over filling.",
+                },
+                "Place protective alluminum ring over outer crust.",
+                "Bake for 40-50 minutes, until crust is golden-brown.",
+                "Remove from oven and let cool until warm.",
+                "Serve with vanilla ice cream."
+            ]
+        }
+    }
+}

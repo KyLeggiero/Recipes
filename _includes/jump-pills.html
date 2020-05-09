@@ -1,0 +1,7 @@
+<nav>
+    <ol class="plain-list flex-row flex-wrap flex-horiz-space-around">
+        {%- for id in include.ids %}
+        <li><a href="#{{ id }}" class="button">{{ include.titles[forloop.index0] }}</a></li>
+        {%- endfor %}
+    </ol>
+</nav>

@@ -3,7 +3,7 @@ bundle check
 bundleCheckStatus=$?
 
 if [ 0 -ne $bundleCheckStatus ]; then
-    printf "Updating Ruby gems...\n"
+    echo "Updating Ruby gems.."
     source updateGems.sh
 fi
 

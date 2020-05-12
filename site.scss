@@ -1,6 +1,9 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
 h1, h2, h3, h4, h5, h6 {
     margin-block-start: 1.5em;
     margin-block-end: 0.5em;
@@ -16,4 +19,191 @@ h1 {
 .sidebar header img.avatar {
     border: none;
     border-radius: 0;
+}
+
+
+p {
+    margin: 1em 0;
+}
+
+
+:root {
+    --thumbnail-gallery-inner-spacing: 1mm;
+}
+
+
+main {
+    max-width: var(--desktop-medium-min-width);
+}
+
+
+.thumbnail-gallery {
+    width: 7in;
+    margin: 1cm auto;
+    padding: var(--thumbnail-gallery-inner-spacing);
+
+    .thumbnail {
+        width: 100%;
+        border-radius: 2px;
+
+        &.solo-centered {
+            display: block;
+            margin: calc(var(--thumbnail-gallery-inner-spacing) * 2) auto;
+            padding: 0 calc(var(--thumbnail-gallery-inner-spacing) * 2);
+
+            &+.caption {
+                margin-block-start: calc(var(--thumbnail-gallery-inner-spacing) * -2);
+            }
+        }
+    }
+
+    .thumbnail-full-image-link {
+        flex-basis: 2in;
+        flex-grow: 0.5;
+        // background: linear-gradient(45deg, blue, red);
+        display: block;
+        margin: var(--thumbnail-gallery-inner-spacing);
+        line-height: 0;
+    }
+
+    .caption {
+        // margin-block-start: 1ex;
+        flex-basis: 100%;
+        text-align: center;
+        padding: 1ex;
+    }
+}
+
+
+ol, ul {
+    margin: 2em 1em;
+
+    ol, ul {
+        margin-block-start: 0;
+        margin-block-end: 0;
+
+        &>li {
+            margin: 1ex 1em;
+        }
+    }
+
+    &>li {
+        margin: 1em 1em;
+    }
+}
+
+
+ol.recipe-steps {
+    margin: 4em 3em;
+
+    &>li {
+        margin: 2em 0;
+
+        &::marker {
+            font-family: "Oswald", sans-serif;
+            font-size: 2em;
+            font-weight: 600;
+        }
+    }
+}
+
+main {
+    aside {
+        width: fit-content;
+        margin: 1rem auto;
+        padding: 1ex 1em;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 1ex;
+        border-color: var(--semitransparent-grey);
+        font-size: 0.8rem;
+
+        h1, h2, h3, h4, h5, h6 {
+            &:first-child {
+                margin-block-start: 0;
+            }
+        }
+    }
+}
+
+
+.recipe-summary {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+
+    &.card {
+        max-width: 3in;
+
+        .categories {
+            text-align: center;
+        }
+    }
+}
+
+
+.disclaimer {
+    border-radius: var(--card-border-radius);
+    border: 1mm solid var(--theme-accent-color);
+    padding: 1ex 1em;
+
+    &>:first-child {
+        margin-block-start: 0;
+    }
+
+    &>:last-child {
+        margin-block-end: 0;
+    }
+}
+
+
+.greeting.card {
+    width: 50%;
+    margin: 1cm auto;
+    border-color: var(--theme-accent-color);
+}
+
+
+.post {
+    .headlining-image {
+        width: 100%;
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--box-shadow-z24);
+        /* border: 1px solid hsl(0deg, 0%, 100%, 10%); */
+        margin: 0 0 1in;
+    }
+
+
+    &>footer {
+        width: fit-content;
+        margin-inline: auto;
+
+        .date {
+            opacity: 50%;
+        }
+    }
+
+
+    blockquote.big.hero {
+        text-align: center;
+        font-size: 3rem;
+        margin-block: 25vh;
+    }
+}
+
+
+.posts {
+    .post {
+        width: 100%;
+        padding: 2ex 2ex 0;
+
+        h1, h2, h3, h4, h5, h6 {
+            &:first-child {
+                margin-block-start: 0;
+            }
+        }
+
+        footer {
+            width: 100%;
+        }
+    }
 }

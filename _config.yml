@@ -6,12 +6,16 @@
 name: Ben Leggieroʼs Recipes
 title: Recipes by Ben
 author:
-    full-name: Ben Leggiero
+    name: Ben Leggiero
     first-name: Ben
     last-name: Leggiero
     avatar: https://www.gravatar.com/avatar/2f4691f7a1c9d3192fe843a164a27535?s=140px
 
 description: Some recipes of mine
+
+source-code:
+    url: https://GitHub.com/BenLeggiero/Recipes
+    service: GitHub
 
 
 #
@@ -30,6 +34,16 @@ social:
         username: BenLeggiero
 
 theme-color: "#D7CCC8"
+
+sidebar:
+    headerImage:
+        url: /images/Social-Preview.png
+    defaultLinks:
+        -
+            text: Made by Ben Leggiero
+            url: https://BenLeggiero.me
+            materialIcon: portrait
+
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: #UA-123332868-1
@@ -53,7 +67,7 @@ timezone: America/Denver
 
 permalink: /:title/
 
-version: v4.0.0
+version: v3.8.5
 
 # Kramdown is Jekyll's Markdown processor
 kramdown:

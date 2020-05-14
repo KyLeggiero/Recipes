@@ -44,6 +44,14 @@ sidebar:
             url: https://BenLeggiero.me
             materialIcon: portrait
 
+post-list:
+    categories-to-display:
+        - Fried Foods
+        - Cast Iron
+        - Desserts
+
+future: false
+
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: #UA-123332868-1

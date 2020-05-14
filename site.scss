@@ -160,6 +160,10 @@ main {
     width: 50%;
     margin: 1cm auto;
     border-color: var(--theme-accent-color);
+
+    @media (max-width: 40em) {
+        width: auto;
+    }
 }
 
 
@@ -204,6 +208,10 @@ main {
 
         footer {
             width: 100%;
+
+            @media (max-width: 40em) {
+                flex-direction: column;
+            }
         }
     }
 }

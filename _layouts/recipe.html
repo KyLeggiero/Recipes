@@ -2,9 +2,9 @@
 layout: post
 ---
 
-{%- if page.headlining-image %}
+{%- if page.hero-image %}
 <figure>
-    <img src="{{ page.headlining-image }}" alt="An image of the food in this recipe" class="headlining-image" />
+    <img src="{{ page.hero-image }}" alt="An image of the food in this recipe" class="hero-image" />
 </figure>
 {%- endif %}
 
@@ -21,31 +21,31 @@ layout: post
     </ul>
     {%- endif %}
 
-    {%- if page.timing-in-minutes %}
-        {%- if page.timing-in-minutes.prep %}
-            <p>
-            {%- if page.timing-in-minutes.prep.min %}
-                Preparation will take at least <strong>{{ page.timing-in-minutes.prep.min }} minutes</strong>
-                {%- if page.timing-in-minutes.prep.max -%}
-                    &nbsp;and at most {{ page.timing-in-minutes.prep.max }} minutes
-                {%- endif -%}
-                .
-            {%- endif %}
-            </p>
-        {%- endif %}
-
-        {%- if page.timing-in-minutes.cook %}
-            <p>
-            {%- if page.timing-in-minutes.cook.min %}
-                Cooking will take at least <strong>{{ page.timing-in-minutes.cook.min }} minutes</strong>
-                {%- if page.timing-in-minutes.cook.max -%}
-                    &nbsp;and at most {{ page.timing-in-minutes.cook.max }} minutes
-                {%- endif -%}
-                .
-            {%- endif %}
-            </p>
-        {%- endif %}
+{% if page.timing-in-minutes %}
+    {% if page.timing-in-minutes.prep -%}
+        <p>
+        {%- if page.timing-in-minutes.prep.min -%}
+            Preparation will take at least <strong>{{ page.timing-in-minutes.prep.min }} minutes</strong>
+            {%- if page.timing-in-minutes.prep.max -%}
+                &nbsp;and at most {{ page.timing-in-minutes.prep.max }} minutes
+            {%- endif -%}
+            .
+        {%- endif -%}
+        </p>
     {%- endif %}
+
+    {% if page.timing-in-minutes.cook -%}
+        <p>
+        {%- if page.timing-in-minutes.cook.min -%}
+            Cooking will take at least <strong>{{ page.timing-in-minutes.cook.min }} minutes</strong>
+            {%- if page.timing-in-minutes.cook.max -%}
+                &nbsp;and at most {{ page.timing-in-minutes.cook.max }} minutes
+            {%- endif -%}
+            .
+        {%- endif -%}
+        </p>
+    {%- endif -%}
+{%- endif %}
 </aside>
 
 {{ content }}

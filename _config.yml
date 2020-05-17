@@ -17,6 +17,8 @@ source-code:
     url: https://GitHub.com/BenLeggiero/Recipes
     service: GitHub
 
+default-neon-theme-url: https://stylesheets.bhstudios.org/assets/v2/neon/neon-earth.css
+
 
 #
 # Flags below are optional

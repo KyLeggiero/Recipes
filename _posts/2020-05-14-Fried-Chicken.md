@@ -17,7 +17,7 @@ timing-in-minutes:
         min: 30
         max: 60
 
-headlining-image: https://benleggieroblogcdn.bhstudios.org/Photos/20200508_183631.jpg
+hero-image: https://benleggieroblogcdn.bhstudios.org/Photos/20200508_183631.jpg
 gallery-photos:
     -
         alt: A closeup of a large plate full of the resulting fried chicken. It appears crispy and moist, its color golden with flecks and spots of brown where there are more-cooked parts. Each piece is round, and about 1 to 1.5 cubic inches, like chicken nuggets.
@@ -76,6 +76,8 @@ Once that's ready, **cut the chicken however you like**. In the images below, I 
 
 First I get out my cast-iron **skillet**. Any shallow pan/skillet will do, I just like using this one. I pour a quarter inch (about half a centimeter) of **peanut oil** into it and **turn the burner to medium**, so it's hot enough to start cooking the chicken the moment the first piece touches it.
 
+I also like to have a big lid so I can cover the pan while the chicken cooks. This reduces splatter and keeps the heat in, leading to a more thorough cook.
+
 
 Next, I set out **3 bowls** for the breading/batter. Like, cereal bowl size. Here's what I put in each one:
 
@@ -93,7 +95,7 @@ Whatever I end up putting in the bowls, I keep the ingredients handy in case I n
 
 When a piece of chicken is done, I choose to place it on **a paper towel on a plate**. This absorbs any excess oil that's on the chicken. After I've finished with everything, I'll transfer all of the chicken from that paper towel to that plate, and that's how I'll serve it.
 
-> I usually have a meat thermometer handy, just to make sure I've cooked the chicken long enough. I find this especially useful at the start and finish, when I don't have the natural timing of the rest of the bowls.
+> I usually have a **meat thermometer** handy, just to make sure I've cooked the chicken long enough. I find this especially useful at the start and finish, when I don't have the natural timing of the rest of the bowls.
 {:.tip.card}
 
 
@@ -118,7 +120,7 @@ I prefer to do this assembly-line style, one piece at a time, making sure all st
 
 7. Basically repeat step 6 so that it's at the other edge of the pan. I then actually **repeat step 6**.
 
-8. Once I've filled all the previous stations, it's time to **move the oldest piece to the paper towel on the plate**! If I'm not quite sure if I've got the temperature/timing right, I'll use a meat thermometer to **make sure it's gotten to 165ºF** (74ºC) before transferring it to the plate. Then I **repeat step 7**.
+8. Once I've filled all the previous stations, it's time to **move the oldest piece to the paper towel on the plate**! If I'm not quite sure if I've got the temperature/timing right, I'll use a meat thermometer to **make sure it's gotten to 165ºF** (74ºC) before transferring it to the plate. If I'm using a pan lid, this is where I'll put it back on. Then I **repeat step 7**.
 
 9. Continue repeating these steps backwards until there's no more chicken left. Once there's only 1 piece in the skillet, I turn the burner off and let the heat of the cast-iron and the oil finish the job. If you're not using cast-iron, it might not retain enough heat to do this, so you can keep it on until you've removed the last piece.
 {:.recipe-steps}

@@ -67,17 +67,17 @@ I've always wanted to be able to make my own fried chicken, southern-style. It s
 
 ## Setup & Prep ##
 
-I prefer **chicken breasts**, but other cuts will work if that's what you have or prefer. If I'd kept it frozen, I also make sure it's **completely thawed** before moving on to the next steps. Sometimes I like to let the meat sit in a **salt brine overnight**, but often I don't have the patience for that. 😜
+I prefer **chicken breasts**, but other cuts will work if that's what you have or prefer. If I'd kept it frozen, I also make sure it's **completely thawed** before moving on to the next steps. Sometimes I like to let the meat sit in a **salt brine overnight**, but often I don't have the patience for that. <span class="emoji">😜</span>
 
 Once that's ready, **cut the chicken however you like**. In the images below, I show how it turns out when I slice it into nugget-sized chunks, but I also like to make tenders and strips. It's however you feel you wanna do it each time!
 
-> Remember that the smaller you slice it, the more breading you'll use up.
-{:.tip}
+> Remember that the smaller you slice it, the more breading you'll use up, and the less time it'll take to cook.
+{:.tip.card}
 
 First I get out my cast-iron **skillet**. Any shallow pan/skillet will do, I just like using this one. I pour a quarter inch (about half a centimeter) of **peanut oil** into it and **turn the burner to medium**, so it's hot enough to start cooking the chicken the moment the first piece touches it.
 
 
-Next, I set out **3 bowls** for the breading/batter. Like, cereal bowl size. Here's what to put in each one:
+Next, I set out **3 bowls** for the breading/batter. Like, cereal bowl size. Here's what I put in each one:
 
 1. Some **whole wheat flour** to coat the chicken in before the next step (if you want a gluten-free version, I've had good results substituting Corn Starch here)
 2. An **egg** and **a little bit of milk** (just enough to turn the mixture opaque). I beat them together with a fork. Sometimes I'll make enough to need 2 eggs and a little more milk, but that's easy to add later.
@@ -89,16 +89,19 @@ Next, I set out **3 bowls** for the breading/batter. Like, cereal bowl size. Her
 
 I then **place a fork in each bowl**, and use these forks to **make sure the second and third bowls are well-mixed**. In the last bowl, sometimes I also put a dash of cayenne pepper or garlic powder, just 'cuz.
 
-Whatever you end up putting in the bowls, keep the ingredients handy in case you need more halfway through.
+Whatever I end up putting in the bowls, I keep the ingredients handy in case I need more halfway through.
 
-When a piece of chicken is done, I choose to place it on **a paper towel on a plate**, to absorb any excess oil that's on it. After I'm done, I'll transfer the chicken from the paper towel onto the plate, and use that to serve it.
+When a piece of chicken is done, I choose to place it on **a paper towel on a plate**. This absorbs any excess oil that's on the chicken. After I've finished with everything, I'll transfer all of the chicken from that paper towel to that plate, and that's how I'll serve it.
+
+> I usually have a meat thermometer handy, just to make sure I've cooked the chicken long enough. I find this especially useful at the start and finish, when I don't have the natural timing of the rest of the bowls.
+{:.tip.card}
 
 
 ## Get Cooking ##
 
 Now that I have everything set up, it's time for the fun part: frying the chicken!
 
-I prefer to do this assembly-line style, one piece at a time, making sure all stations filled at all times. That is to say, starting with step 2, with each step, I go backwards through the recipe to repeat previous steps on the next pieces of chicken
+I prefer to do this assembly-line style, one piece at a time, making sure all stations have chicken in them at all times. That is to say, starting with step 2, with each step, I go backwards through the recipe to repeat previous steps on the next pieces of chicken.
 
 
 1. Place a piece of chicken in the **first bowl**, and roll it around in the flour (or lift and sprinkle the flour) **until it's lightly coated on all sides**

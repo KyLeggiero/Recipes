@@ -1,7 +1,7 @@
 
-<a href="https://github.com/UTTMA/Logo"><img src="https://uttma.github.io/Logo/Rendered/UTTMA%20Icon%20(256p)@2x.png" alt="The logo for Project UTTMA" width="256" /></a>
+<a href="https://Recipes.BenLeggiero.me"><img src="https://Recipes.BenLeggiero.me/images/Social-Preview.png" alt="The logo for this recipe site" height="256" /></a>
 
 
-# Ultimate Task and Time Manager App #
+# [Ben Leggiero's Recipes](Recipes.BenLeggiero.me) #
 
-I have a bunch of [ideas](https://uttma.github.io/Concept/) for how to make a great task and time tracking platform.
+I love to make food, and I love to share! Here's some of my recipes that I made. Some evolved from others, some were just me throwing stuff together. Feel free to take and mix and do whatever you want with them!

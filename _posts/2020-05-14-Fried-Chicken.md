@@ -2,6 +2,7 @@
 layout: recipe
 title: Southern-Style Fried Chicken
 date: 2020-05-17 00:43 -0600
+date-edit: 2020-05-17 18:04 -0600
 
 categories:
     - Chicken

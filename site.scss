@@ -86,12 +86,12 @@ ol, ul {
     }
 
     &>li {
-        margin: 1em 1em;
+        margin: 1em;
     }
 }
 
 
-ol.recipe-steps {
+.recipe-steps {
     margin: 4em 3em;
 
     &>li {
@@ -102,6 +102,13 @@ ol.recipe-steps {
             font-size: 2em;
             font-weight: 600;
         }
+    }
+}
+
+.ingredients {
+    li {
+        margin-block-end: 1ex;
+        margin-block-start: 1ex;
     }
 }
 

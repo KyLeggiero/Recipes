@@ -38,7 +38,7 @@ main {
 
 
 .thumbnail-gallery {
-    width: 7in;
+    max-width: 7in;
     margin: 1cm auto;
     padding: var(--thumbnail-gallery-inner-spacing);
 
@@ -55,6 +55,11 @@ main {
                 margin-block-start: calc(var(--thumbnail-gallery-inner-spacing) * -2);
             }
         }
+
+        &.small {
+            max-width: 2in;
+            max-height: 2in;
+        }
     }
 
     .thumbnail-full-image-link {
@@ -69,6 +74,25 @@ main {
         flex-basis: 100%;
         text-align: center;
         padding: 1ex;
+    }
+
+    &.right,
+    &.left {
+        margin: 1em;
+
+        h1+&, h2+&, h3+&, h4+&, h5+&, h6+& {
+            margin-block-start: 0;
+        }
+    }
+
+    &.right {
+        float: right;
+        margin-right: 0;
+    }
+
+    &.left {
+        float: left;
+        margin-left: 0;
     }
 }
 

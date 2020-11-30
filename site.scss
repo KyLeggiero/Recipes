@@ -2,6 +2,7 @@
 ---
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import "to-be-transferred";
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,40 +38,6 @@ main {
 }
 
 
-.thumbnail-gallery {
-    width: 7in;
-    margin: 1cm auto;
-    padding: var(--thumbnail-gallery-inner-spacing);
-
-    .thumbnail {
-        width: 100%;
-        border-radius: 2px;
-
-        &.solo-centered {
-            display: block;
-            margin: calc(var(--thumbnail-gallery-inner-spacing) * 2) auto;
-            padding: 0 calc(var(--thumbnail-gallery-inner-spacing) * 2);
-
-            &+.caption {
-                margin-block-start: calc(var(--thumbnail-gallery-inner-spacing) * -2);
-            }
-        }
-    }
-
-    .thumbnail-full-image-link {
-        flex-basis: 2in;
-        flex-grow: 0.5;
-        display: block;
-        margin: var(--thumbnail-gallery-inner-spacing);
-        line-height: 0;
-    }
-
-    .caption {
-        flex-basis: 100%;
-        text-align: center;
-        padding: 1ex;
-    }
-}
 
 
 ol, ul {
@@ -86,12 +53,12 @@ ol, ul {
     }
 
     &>li {
-        margin: 1em 1em;
+        margin: 1em;
     }
 }
 
 
-ol.recipe-steps {
+.recipe-steps {
     margin: 4em 3em;
 
     &>li {
@@ -102,6 +69,13 @@ ol.recipe-steps {
             font-size: 2em;
             font-weight: 600;
         }
+    }
+}
+
+.ingredients {
+    li {
+        margin-block-end: 1ex;
+        margin-block-start: 1ex;
     }
 }
 
@@ -195,7 +169,9 @@ main {
 .posts {
     .post {
         width: 100%;
+        max-width: 100%;
         padding: 2ex 2ex 0;
+        margin-inline: -1em;
 
         h1, h2, h3, h4, h5, h6 {
             &:first-child {

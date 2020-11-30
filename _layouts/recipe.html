@@ -46,6 +46,13 @@ layout: post
         </p>
     {%- endif -%}
 {%- endif %}
+{%- if page.original-recipe.author %}
+    <hr/>
+    <p><strong>Orignal recipe</strong> by {{ page.original-recipe.author }}.</p>
+    {%- if page.original-recipe.other-authors %}
+        <p><strong>Later modified</strong> by {{ page.original-recipe.other-authors | join: ', then ' }}</p>
+    {%- endif %}
+{%- endif %}
 </aside>
 
 {{ content }}

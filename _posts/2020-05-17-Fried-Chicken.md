@@ -19,6 +19,8 @@ timing-in-minutes:
         max: 60
 
 hero-image: https://benleggieroblogcdn.bhstudios.org/Photos/20200508_183631.jpg
+thumbnail: https://benleggieroblogcdn.bhstudios.org/Photos/20200508_183631%20thumbnail.jpg
+
 gallery-photos:
     -
         alt: A closeup of a large plate full of the resulting fried chicken. It appears crispy and moist, its color golden with flecks and spots of brown where there are more-cooked parts. Each piece is round, and about 1 to 1.5 cubic inches, like chicken nuggets.

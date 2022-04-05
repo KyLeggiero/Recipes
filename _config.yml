@@ -3,18 +3,18 @@
 #
 
 # Name of your site (displayed in the header)
-name: Ben Leggieroʼs Recipes
-title: Recipes by Ben
+name: Kyʼs Recipes
+title: Recipes by Ky
 author:
-    name: Ben Leggiero
-    first-name: Ben
+    name: Ky
+    first-name: Ky
     last-name: Leggiero
-    avatar: https://www.gravatar.com/avatar/2f4691f7a1c9d3192fe843a164a27535?s=140px
+    avatar: https://www.gravatar.com/avatar/2f4691f7a1c9d3192fe843a164a27535?s=300px
 
 description: Some recipes of mine
 
 source-code:
-    url: https://GitHub.com/BenLeggiero/Recipes
+    url: https://GitHub.com/KyLeggiero/Recipes
     service: GitHub
 
 default-neon-theme-url: https://stylesheets.bhstudios.org/assets/v2/neon/neon-earth.css
@@ -24,17 +24,18 @@ default-neon-theme-url: https://stylesheets.bhstudios.org/assets/v2/neon/neon-ea
 # Flags below are optional
 #
 
-# Includes icons in the sidebar
+# Includes icons & links in the sidebar
 social:
-    default-username: BenLeggiero
-    email: BenLeggiero@Gmail.com
-    github: BenLeggiero/Recipes
-    twitter: BenLeggiero
-    blog: https://BenLeggiero.blog
+    default-username: KyLeggiero
+    email: Ky@KyLeggiero.me
+    github: KyLeggiero/Recipes
+    twitter: KyLeggiero
+    blog: https://Blog.KyLeggiero.me
     mastodon:
         instance: mastodon.social
-        username: BenLeggiero
+        username: KyLeggiero
 
+# In Chrome titlebar, Windows tiles, etc.
 theme-color: "#D7CCC8"
 
 sidebar:
@@ -42,8 +43,8 @@ sidebar:
         url: /images/Social-Preview.png
     defaultLinks:
         -
-            text: Made by Ben Leggiero
-            url: https://BenLeggiero.me
+            text: Made by Ky
+            url: https://KyLeggiero.me
             materialIcon: portrait
 
 post-list:
@@ -55,12 +56,12 @@ post-list:
 future: false
 
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+# Google Analytics web tracking code (e.g. UA-2110908-2)
 google_analytics: #UA-123332868-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://Recipes.BenLeggiero.me
+url: https://Recipes.KyLeggiero.me
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
